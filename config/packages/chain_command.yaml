@@ -1,0 +1,7 @@
+chain_command:
+  options:
+    logging: true
+  chains:
+    foo:hello:
+      members:
+        - command: bar:hi
